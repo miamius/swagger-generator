@@ -1,6 +1,6 @@
 {
-    "name": "infyomlabs/swagger-generator",
-    "description": "Swagger Generator for InfyOm Laravel Generator",
+    "name": "infyomlabs/openapi-generator",
+    "description": "OpenApi Generator for InfyOm Laravel Generator",
     "keywords": [
         "laravel",
         "swagger",
@@ -10,8 +10,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Mitul Golakiya",
-            "email": "me@mitul.me"
+            "name": "Jairo Laupa",
+            "email": "secret@gmail.com"
         }
     ],
     "require": {
