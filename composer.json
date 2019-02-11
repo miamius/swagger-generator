@@ -1,5 +1,5 @@
 {
-    "name": "infyomlabs/openapi-generator",
+    "name": "miamius/openapi-generator",
     "description": "OpenApi Generator for InfyOm Laravel Generator",
     "keywords": [
         "laravel",
