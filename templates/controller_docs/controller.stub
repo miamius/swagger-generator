@@ -1,4 +1,6 @@
 /**
  * Class $MODEL_NAME$Controller
+ *
  * @package $NAMESPACE_API_CONTROLLER$
+ * @author  Jairo Laupa <secret@gmail.com>
  */

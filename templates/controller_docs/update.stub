@@ -1,46 +1,46 @@
 /**
-     * @param int $id
-     * @param Update$MODEL_NAME$APIRequest $request
-     * @return Response
-     *
-     * @SWG\Put(
+     * @OA\Put(
      *      path="/$MODEL_NAME_PLURAL_CAMEL$/{id}",
      *      summary="Update the specified $MODEL_NAME$ in storage",
      *      tags={"$MODEL_NAME$"},
      *      description="Update $MODEL_NAME$",
-     *      produces={"application/json"},
-     *      @SWG\Parameter(
+     *      @OA\Parameter(
      *          name="id",
      *          description="id of $MODEL_NAME$",
-     *          type="integer",
+     *          @OA\Schema(
+     *              type="integer",
+     *          ),
      *          required=true,
      *          in="path"
      *      ),
-     *      @SWG\Parameter(
-     *          name="body",
-     *          in="body",
+     *      @OA\Parameter(
+     *          name="query",
+     *          in="path",
      *          description="$MODEL_NAME$ that should be updated",
      *          required=false,
-     *          @SWG\Schema(ref="#/definitions/$MODEL_NAME$")
      *      ),
-     *      @SWG\Response(
+     *      @OA\Response(
      *          response=200,
      *          description="successful operation",
-     *          @SWG\Schema(
+     *          @OA\Schema(
      *              type="object",
-     *              @SWG\Property(
+     *              @OA\Property(
      *                  property="success",
      *                  type="boolean"
      *              ),
-     *              @SWG\Property(
+     *              @OA\Property(
      *                  property="data",
      *                  ref="#/definitions/$MODEL_NAME$"
      *              ),
-     *              @SWG\Property(
+     *              @OA\Property(
      *                  property="message",
      *                  type="string"
      *              )
      *          )
-     *      )
+     *      ),
+     *      @OA\Response(
+     *          response="default",
+     *          description="an ""unexpected"" error"
+     *      ),
      * )
-     */
+ */
