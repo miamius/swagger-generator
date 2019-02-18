@@ -1,5 +1,8 @@
- *      @SWG\Property(
- *          property="$FIELD_NAME$",
- *          description="$DESCRIPTION$",
- *          type="$FIELD_TYPE$"$FIELD_FORMAT$
- *      )
+     /**
+     * @OA\Property(
+     *     title="$FIELD_NAME$",
+     *     description="$DESCRIPTION$"$FIELD_FORMAT$,
+     * )
+     * @var $FIELD_TYPE$
+     */
+     private $$FIELD_NAME$;
